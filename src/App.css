@@ -1,0 +1,43 @@
+.title {
+  text-align: center;
+  font-family: arial, sans-serif;
+  color: azure;
+}
+
+.students {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+.students td, .students th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.students tr:nth-child(even){background-color: #f2f2f2;}
+
+.students tr:hover {background-color: #ddd;}
+
+.students th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.encabezado {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid rgb(37, 34, 255);
+  width: 100%;
+}
+.marco{
+  margin-left: 40px;
+  margin-top: 90px;
+  margin-right: 20px;
+}
